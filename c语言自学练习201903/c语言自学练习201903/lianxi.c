@@ -5,7 +5,7 @@
 #include <string.h>
 
 
-//燕山大学复试c语言复试学习  自学练习
+//c语言复试学习  自学练习
 ////赋值类型转换
 //void main()
 //{
@@ -528,3 +528,119 @@
 //	printf("%f",money);
 //	system("pause");
 //}
+
+//2013
+//一 4
+//void main(){
+//
+//	char c1='B',c2='O',c3='Y',c4='\101',c5='\116';
+//	printf("a%cb%c\tc%c\tabc\n",c1,c2,c3);//aBbO    cY    abc
+//	printf("\t\b%c%c\n",c4,c5);           //AN
+//	system("pause");
+//}
+//3判断 char型变量 ch  是否为大写字母
+//void main(){
+//
+//	char ch;
+//	ch=getchar();
+//	if(ch>='A'&&ch<='Z'){
+//		printf("是大写字母");
+//	}
+//	else
+//		printf("不是大写字母");
+//	system("pause");
+//}
+
+//5
+//void main(){
+//	int a=3,b=4,c=5,d;
+//	d=!(a+b)+c-1&&b+c/2;
+//	printf("%d",d);//1       运算等级：! 运算符（* / + -） 关系运算符(< >) &&和||   ?:  =  
+//	system("pause");
+//}
+
+//二
+//#define pi 3.14
+//void main(){
+//	float r=1.5,h=3.0;
+//	float c,s,s1,v,v1;
+//	c=r*2*pi;
+//	s=r*r*pi;
+//	s1=4.0*pi*r*r;
+//	v=4.0/3.0*pi*r*r*r;
+//	v1=s*h;
+//	printf("圆周长为：%.2f\n 圆面积为：%.2f\n 圆球表面积为：%.2f\n 圆球体积：%.2f\n 圆柱体积：%.2f\n",c,s,s1,v,v1);
+//	system("pause");
+//}
+
+//三 百分制成绩
+//void main(){
+//	int a;
+//	printf("请输入成绩:\n");
+//	scanf("%d",&a);
+//	if(a>100 || a<0){
+//		printf("请输入正确的成绩\n");
+//	}
+//	else if(a>=90){
+//		printf("成绩为A");
+//	}
+//	else if(a>=80){
+//		printf("成绩为B");
+//	}
+//	else if(a>=70){
+//		printf("成绩为C");
+//	}
+//	else if(a>=60){
+//		printf("成绩为D");
+//	}
+//	else{
+//		printf("成绩为E");
+//	}
+//	system("pause");
+//}
+
+//用选择法对10个整数从小到大排序
+/*工作原理是每一次从待排序的数据元素中选出最小（或最大）的一个元素，
+存放在序列的起始位置，直到全部待排序的数据元素排完。*/
+//void main(){
+//	int i,j,min,temp;
+//	int a[10];
+//	for(i=0;i<10;i++){
+//		scanf("%d",&a[i]);
+//	}
+//	printf("数组为：");
+//	for(i=0;i<10;i++){
+//		printf(" %d ",a[i]);
+//	}
+//	printf("\n");
+//
+//	for(i=0;i<10;i++)
+//	{
+//		min=i;
+//		for(j=i+1;j<10;j++)
+//		{
+//			if(a[min]>a[j])
+//				min=j;
+//		}
+//	   temp=a[i];  //最小元素a[min]
+//       a[i]=a[min];
+//	   a[min]=temp;
+//	}
+//	for(i=0;i<10;i++){
+//		printf(" %d ",a[i]);
+//	}
+//	system("pause");
+//}
+//五 写一个函数，使给定的一个二维数组(3*3)转置，即行列互换
+void main(){
+	
+
+	system("pause");
+}
+int trans(){
+	int a[i][i];
+	
+
+
+}
+
