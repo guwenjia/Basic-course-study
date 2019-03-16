@@ -632,15 +632,89 @@
 //	system("pause");
 //}
 //五 写一个函数，使给定的一个二维数组(3*3)转置，即行列互换
-void main(){
-	
+//main{
+//给出二维数组a[3][3]
+//转置函数声明
+//转制函数调用
+//}
+//转置函数定义  void switchArray(int array[3][3])
+//void main(){
+//	int tran(int a[3][3]);
+//	
+//	int l[3][3]={{1,2,3},{4,5,6},{7,8,9}};
+//	tran(l);
+//	system("pause");
+//}
+//int tran(int a[3][3]){
+//	int i,j;
+//	int b[3][3];
+//	for(i=0;i<3;i++){
+//		for(j=0;j<3;j++){
+//			b[i][j]=a[j][i];
+//		}
+//	}
+//	for(i=0;i<3;i++){
+//		for(j=0;j<3;j++){
+//			printf("%2d",b[i][j]);
+//		}
+//		printf("\n");
+//	}
+//}
 
-	system("pause");
-}
-int trans(){
-	int a[i][i];
-	
+//网上答案
+//void main(){
+//
+//	void switchArray(int [3][3]);
+//	int array[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
+//	int i,j;
+//	switchArray(array);
+//
+//	system("pause");
+//}
+//
+//void switchArray(int array[3][3]){
+//    int newArray[3][3];
+//    int i,j;
+//    for(i=0;i<3;i++){
+//        for(j=0;j<3;j++){
+//            newArray[j][i] = array[i][j];
+//        }
+//    }
+//    for(i=0;i<3;i++){
+//        for(j=0;j<3;j++){
+//            printf("%d ",newArray[i][j] );
+//        }
+//    printf("\n");
+//    }
+//	
+//}
+//2012 
+//一 2
+//int main(){
+//	int x=1,a=0,b=0;
+//	switch(x){
+//	case 0:b++;
+//	case 1:a++;
+//	case 2:a++;b++;
+//	}
+//	printf("a=%d,b=%d",a,b);  //a=2,b=1
+//	system("pause");
+//
+//}
+//3
+//int fun(){
+//	static int a=0;  //可以作为一个全局变量 保存被修改的值
+//	a+=3;
+//	printf("%4d",a);
+//}
+//void main(){
+//	int i;
+//
+//	for(i=0;i<3;i++)fun();
+//	printf("\n");			//3 6 7  | 如果上面改成 int a=0;则输出3 3 3
+//	system("pause");     
+//}
+//4
 
 
-}
 
